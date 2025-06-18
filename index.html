@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Smart Budget App - Login</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Smart Budget App</h1>
+
+    <div class="form-toggle">
+      <button id="registerToggle">Register</button>
+      <button id="loginToggle" class="active">Login</button>
+    </div>
+
+    <form id="registerForm" class="auth-form hidden">
+        Email
+        <input type="email" placeholder="Email" required />
+        Password
+        <input type="password" placeholder="Password" required />
+        Confirm Password
+        <input type="password" placeholder="Confirm Password" required />
+        <button type="submit">Register</button>
+      </form>
+
+    <form id="loginForm" class="auth-form">
+      <input type="email" placeholder="Email" required />
+      <input type="password" placeholder="Password" required />
+      <button type="submit">Login</button>
+    </form>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
